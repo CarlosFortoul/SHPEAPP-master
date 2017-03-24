@@ -37,8 +37,8 @@ public class RegisterActivity extends AppCompatActivity implements AdapterView.O
         majorSpinner.setOnItemSelectedListener(this);
         yearSpinner.setOnItemSelectedListener(this);
 
-
-
+        ((EditText) findViewById(R.id.majorTextBox)).setText(majorSpinner.getItemAtPosition(majorSpinner.getSelectedItemPosition()).toString());
+        ((EditText) findViewById(R.id.yearTextBox)).setText(yearSpinner.getItemAtPosition(yearSpinner.getSelectedItemPosition()).toString());
         //onItemSelected(majorSpinner,majorSpinner.getRootView(), majorSpinner.getPositionForView(majorSpinner.getRootView()), majorSpinner.getId());
         //majorEditText.setText(majorSpinner.getOnItemSelectedListener().);
 
@@ -53,7 +53,8 @@ public class RegisterActivity extends AppCompatActivity implements AdapterView.O
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
-       // text.setText(parent.getItemAtPosition(position).toString());
+
+        // text.setText(parent.getItemAtPosition(position).toString());
     }
 
     public String getText(AdapterView<?> spinner){
