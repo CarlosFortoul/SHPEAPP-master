@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">"SHPE APP "</string>
+
+    <string-array name="majors">
+        <item>Mechanical Engineering</item>
+        <item>Industrial Engineering</item>
+        <item>Computer Engineering</item>
+        <item>Environmental Engineering</item>
+        <item>Aerospace Engineering</item>
+        <item>Electric Engineering</item>
+        <item>Civil Engineering</item>
+    </string-array>
+
+    <string-array name="academicStandings">
+        <item>Freshman</item>
+        <item>Sophomore</item>
+        <item>Junior</item>
+        <item>Senior</item>
+        <item>Super Senior</item>
+
+    </string-array>
+
 </resources>
